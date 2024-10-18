@@ -9,14 +9,32 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@discordjs/rest": "^2.4.0",
+    "@radix-ui/react-label": "^2.1.0",
+    "@radix-ui/react-slot": "^1.1.0",
+    "@radix-ui/react-tabs": "^1.1.1",
+    "axios": "^1.7.7",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "discord-api-types": "^0.37.101",
+    "discord.js": "^14.16.3",
+    "framer-motion": "^11.11.8",
+    "init": "^0.1.2",
+    "lucide-react": "^0.452.0",
+    "next": "14.2.15",
+    "next-auth": "^4.24.8",
+    "npx": "^10.2.2",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.15"
+    "shadcn": "^2.1.0",
+    "tailwind-merge": "^2.5.3",
+    "tailwindcss-animate": "^1.0.7",
+    "winston": "^3.15.0"
   },
   "devDependencies": {
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
     "eslint": "^8",
-    "eslint-config-next": "14.2.15"
+    "eslint-config-next": "14.2.15",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
   }
 }
